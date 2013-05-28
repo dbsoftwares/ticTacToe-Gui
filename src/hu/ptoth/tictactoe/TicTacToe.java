@@ -56,7 +56,7 @@ public class TicTacToe {
 	    
 	    
 	    // sets the ActionListener to our class
-	    buttonsArray[i].addActionListener(new MyActionListener() {
+	    buttonsArray[i].addActionListener(new ActionListener() {
 		@Override
 		public void actionPerformed(ActionEvent e) {
 		    System.err.println(e.getSource().toString());
